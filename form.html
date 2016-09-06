@@ -22,7 +22,7 @@
             var dataString = "id=" + id + "&title=" + title + "&duration=" + duration + "&price=" + price + "&update=";
             $.ajax({
                 type: "POST",
-                url: "/CourseFinder/www/php/update.php",
+                url: "http://thegemba.web44.net/php/update.php",
                 data: dataString,
                 crossDomain: true,
                 cache: false,
@@ -45,7 +45,7 @@
             var dataString = "id=" + id + "&delete=";
             $.ajax({
                 type: "GET",
-                url: "/CourseFinder/www/php/delete.php",
+                url: "http://thegemba.web44.net/php/delete.php",
                 data: dataString,
                 crossDomain: true,
                 cache: false,
